@@ -132,6 +132,26 @@
   			background-color: tomato;
   			color: white;
 			}
+			
+			div.background {
+    			background: url(img/img.jpg) repeat;
+    			border: 2px solid black;
+			}
+
+			div.transbox {
+    			margin: 30px;
+    			background-color: #ffffff;
+    			border: 1px solid black;
+    			opacity: 0.6;
+    			filter: alpha(opacity=60); /* For IE8 and earlier */
+			}
+
+			div.transbox p {
+    			margin: 5%;
+    			font-weight: bold;
+    			color: #000000;
+			}
+
 		</style>
 	</head>
 	<body>
@@ -156,13 +176,17 @@
   					</div>
 					</div>
 					<h1 id= titolo1 class = serif> Harry Potter </h1>
-					<div class="container">
- 						<img src="img/img.jpg" alt="Norway" style="width:100%;" />
- 						<div class="centered"> "Evenif it's all dark remember to turn on the light"</div>
+
+					<div class="background">
+  					<div class="transbox">
+    					<p>Evenif it's all dark remember to turn on the light.</p>
+  					</div>
 					</div>
+
+
+			
+			
 					
-					<h8 />
-					<p id = parafrafo1></>
 					
 				</div>
 				<div class="container">
