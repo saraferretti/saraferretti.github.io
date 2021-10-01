@@ -105,3 +105,23 @@ https://www.creativosonline.org/it/efectos-css-texto.html?utm_source=destacado-i
      			-moz-transition-timing-function: cubic-bezier(0, 0, 0, 1);
       			transition-timing-function: cubic-bezier(0, 0, 0, 1);
 			}
+
+
+
+/*<div id="scroll-animate">
+  						<div id="scroll-animate-main">
+    							<div class="wrapper-parallax">
+      								<header>
+        								<h1>Header</h1>
+      								</header>
+
+      								<section class="content">
+        								<h1>Content</h1>
+      								</section>
+
+      								<footer>
+        								<h1>Footer</h1>
+      								</footer>
+    							</div>
+  						</div>
+					</div>*/
