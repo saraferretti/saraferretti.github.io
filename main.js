@@ -1,4 +1,4 @@
-function scrollFooter(scrollY, heightFooter)
+/*function scrollFooter(scrollY, heightFooter)
 {
     console.log(scrollY);
     console.log(heightFooter);
@@ -57,7 +57,7 @@ $(window).load(function(){
 
         scrollFooter(scroll, footerHeight);
     }
-});
+});*/
 
 
 $(window).scroll(function() {
