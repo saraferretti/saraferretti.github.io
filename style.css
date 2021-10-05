@@ -420,7 +420,7 @@ li{
 }
 
 .bg-block{
-    background: url(img/img.jpg) no-repeat;
+    background: url("img/img.jpg") no-repeat;
     width: 320px;
     height: 395px;
     background-size: cover;
@@ -569,7 +569,7 @@ li{
 }
 
 .right-banner{
-    background: url(img/img.jpg) no-repeat;   
+    background: url("img/img.jpg") no-repeat;   
     height: 100%;
     width: 100%;
     background-size: cover;
