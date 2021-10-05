@@ -255,6 +255,11 @@
      			-moz-transition-timing-function: cubic-bezier(0, 0, 0, 1);
       			transition-timing-function: cubic-bezier(0, 0, 0, 1);
 			}
+			
+			header span.animated {
+			animation-duration: 2.5s;
+			animation-iteration-count: infinite;
+			}
 
 
 
