@@ -36,6 +36,10 @@ $(window).load(function(){
     $('.wrapper-parallax').css({
         'margin-top' : windowHeight + 'px'
     });
+    
+    
+    
+
 
     scrollFooter(window.scrollY, footerHeight);
 
@@ -53,4 +57,13 @@ $(window).load(function(){
 
         scrollFooter(scroll, footerHeight);
     }
+});
+
+
+$(window).scroll(function() {
+$('.scroll-animations .animated').each(function() {
+if (isScrolledIntoView(this) === true) {
+$(this).addClass('fadeInLeft');
+}
+});
 });
