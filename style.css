@@ -1,6 +1,6 @@
 
 
-			.serif {
+			/*.serif {
   				font-family: "Times New Roman", Times, serif;
 			}
 
@@ -130,7 +130,7 @@
     			background-color: #ffffff;
     			border: 1px solid black;
     			opacity: 0.6;
-    			filter: alpha(opacity=60); /* For IE8 and earlier */
+    			filter: alpha(opacity=60);  For IE8 and earlier 
   			top: 50%;
   			left: 50%;
 			}
@@ -279,7 +279,7 @@
                         font-size: 120px;
                         line-height: .75;
                         margin: 10px 0;
-                        }
+                        }*/
 
 header span.animated {
 animation-duration: 2.5s;
