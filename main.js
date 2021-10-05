@@ -1,4 +1,4 @@
-/*function scrollFooter(scrollY, heightFooter)
+function scrollFooter(scrollY, heightFooter)
 {
     console.log(scrollY);
     console.log(heightFooter);
@@ -36,10 +36,6 @@ $(window).load(function(){
     $('.wrapper-parallax').css({
         'margin-top' : windowHeight + 'px'
     });
-    
-    
-    
-
 
     scrollFooter(window.scrollY, footerHeight);
 
@@ -50,6 +46,14 @@ $(window).load(function(){
         $('#scroll-animate-main').css({
             'top' : '-' + scroll + 'px'
         });
+        
+        $('header').css({
+            'background-position-y' : 50 - (scroll * 100 / heightDocument) + '%'
+        });
+
+        scrollFooter(scroll, footerHeight);
+    }
+});
         
         $('header').css({
             'background-position-y' : 50 - (scroll * 100 / heightDocument) + '%'
