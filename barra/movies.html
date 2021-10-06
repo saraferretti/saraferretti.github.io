@@ -13,47 +13,46 @@
 		
 	</head>
 	<body>
-<section class="awSlider">
-  <div  class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target=".carousel" data-slide-to="0" class="active"></li>
-      <li data-target=".carousel" data-slide-to="1"></li>
-      <li data-target=".carousel" data-slide-to="2"></li>
-      <li data-target=".carousel" data-slide-to="3"></li>
-    </ol>
-
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner" role="listbox">
-      <div class="item active">
-        <img src="img/img8.jpg">
-        <div class="carousel-caption">Görsel #1</div>
-      </div>
-      <div class="item">
-        <img src="img/img12.jpg">
-        <div class="carousel-caption">Görsel #2</div>
-      </div>
-      <div class="item">
-        <img src="img/img10.jpg">
-        <div class="carousel-caption">Görsel #3</div>
-      </div>
-      <div class="item">
-        <img src="img/img11.jpg">
-        <div class="carousel-caption">Görsel #4</div>
-      </div>
+<div class="scatola">
+<div id="myCarousel" class="carousel slide" data-interval="5000" data-ride="carousel">
+<!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+    <div class="carousel-inner">
+        <div class="item active">
+            <img src="http://ioeweb.it/images/jquery/bootstrap3/slide1.png"/>
+                  <div class="carousel-caption">
+                        <h3><a href="img/img8.jpg">Image 1</a></h3>
+                     <p>Image 1 Descrizione</p>
+                </div>
+        </div>
+        <div class="item ">
+            <img src="http://ioeweb.it/images/jquery/bootstrap3/slide2.png"/>
+<div class="carousel-caption">
+                        <h3><a href="img/img9.jpg">Image 2</a></h3>
+                     <p>Image 2 Descrizione</p>
+                </div>
+        </div>
+        <div class="item">
+            <img src="http://ioeweb.it/images/jquery/bootstrap3/slide3.png"/>
+            <div class="carousel-caption">
+                        <h3><a href="#">Image 3</a></h3>
+                     <p>Image 3 Descrizione</p>
+                </div>
+        </div>
     </div>
-
-    <!-- Controls -->
-    <a class="left carousel-control" href=".carousel" role="button" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-      <span class="sr-only">Geri</span>
-    </a>
-    <a class="right carousel-control" href=".carousel" role="button" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-      <span class="sr-only">İleri</span>
-    </a>
-  </div>
-</section>
+    <!-- Controls -->   
+<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+  <span class="glyphicon glyphicon-chevron-left" ></span>
+ </a>
+ <a class="right carousel-control" href="#myCarousel" data-slide="next">
+  <span class="glyphicon glyphicon-chevron-right" ></span>
+ </a>
+</div>
+</div>
 		
 		
 		<!--<h1 id = titolo1 class = serif> Movies </h1>
